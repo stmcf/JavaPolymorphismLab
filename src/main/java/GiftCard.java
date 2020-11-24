@@ -15,8 +15,8 @@ public class GiftCard {
         return this.balance;
     }
 
-    public void chargeCustomer(double charge){
-        if(charge < this.balance)
-            this.balance -= charge;
+    public void chargeCustomer(double purchaseAmount){
+        if(purchaseAmount < this.balance)
+            this.balance -= purchaseAmount;
     }
 }
